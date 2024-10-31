@@ -1,0 +1,1 @@
+In order to save on calls to the YouTube API, which might quickly exhaust your quota, the plugin stores information about the videos in the WordPress database, and only checks for new videos twice per day automatically.

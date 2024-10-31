@@ -1,0 +1,1 @@
+Under <strong><i>Appearance > Widgets</i></strong>, add the Papaya YouTube Widget to the sidebar/widgetized area where you want your YouTube Channel featured. If you set a Channel ID for the Widget, it will override the Channel ID set on the settings page.

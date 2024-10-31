@@ -1,0 +1,103 @@
+/**
+ * Papaya YouTube Widget Plugin CSS file
+ *
+ * Version:       1.0
+ * License:       GPLv2 or later
+ *
+ * Copyright (C) 2020  Papaya Design & Marketing (https://papaya.no/)
+ *
+ * @author     Papaya Design & Marketing
+ * @version    1.0
+ */
+
+#papaya_youtube_widget {
+	width: 100%;
+	overflow: hidden;
+}
+
+#papaya_youtube_widget .width-full {
+	width: 100%;
+}
+
+#papaya_youtube_widget .height-auto {
+	height: auto;
+}
+
+#papaya_youtube_widget .pyw_poster_image {
+	max-width: 100%;
+}
+
+#papaya_youtube_widget .pyw_poster {
+	width: 49%;
+	margin: 10px 0px 1px;
+}
+
+#papaya_youtube_widget .pyw-left {
+	float: left;
+}
+
+#papaya_youtube_widget .pyw-right {
+	float: right;
+}
+
+#papaya_youtube_widget .pointer {
+	cursor: pointer;
+}
+
+#pyw_channel_name {
+	float: left;
+	padding: 10px;
+}
+
+#pyw_yt_tos {
+	font-size: 60%;
+	float: right;
+	padding: 10px;
+	color: #aaa;
+}
+
+#pyw_yt_tos a:link,
+#pyw_yt_tos a:visited {
+	color: #aaa;
+}
+
+/** Modal CSS starts */
+#papaya_youtube_modal.pyw_modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0,0,0,0.75);
+}
+
+#papaya_youtube_modal .pyw_modal_content {
+	margin: 100px auto;
+	padding: 20px;
+	width: 640px;
+}
+
+#papaya_youtube_modal .pyw_modal_close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#papaya_youtube_modal .pyw_modal_close:hover,
+#papaya_youtube_modal .pyw_modal_close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+/** Modal CSS ends **/
+
+@media only screen and (max-width: 480px) {
+	#papaya_youtube_widget .pyw_poster {
+		width: 100%;
+		margin: 10px auto;
+	}
+}

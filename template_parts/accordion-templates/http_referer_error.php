@@ -1,0 +1,2 @@
+In the http restrictions section in the <a href="<?php echo esc_url('https://console.developers.google.com/project/'); ?>">Google API Console</a>, make sure you have added the domain of the site as it appears under site address in settings. If you can't get it to work at first, add all working versions of your domain, e.g. with both http and https, with and without sub domains, with and without a trailing slash.<br><br>
+If you still have trouble, try turning off restrictions altogether.

@@ -1,0 +1,5 @@
+Double check that you are using a valid YouTube Channel ID. If you go to <strong><i>https://www.youtube.com/channel/YOUR-CHANNEL-ID</i></strong>, you should see the channel you want to embed. Then, log on to <strong><i>https://console.developers.google.com/apis/</i></strong>credentials and double check that you are using a valid API key.
+<br><br>
+Also check the API key settings, to make sure there are no restrictions API key, preventing it from being used to access YouTube through your site. Refer to Google and YouTube's own documentation of you are unsure about to find out. Make sure there are no unintentional spaces or characters before or after your Channel ID or API key in the settings.
+<br><br>
+Note that the widget settings are optional, and override the general plugin settings. So even if the plugin settings are correct, you may have a typo in the widget settings. When you are troubleshooting, remember to clear your caches (server- and browser-side) frequently, so you are not seeing old versions of your website.

@@ -1,0 +1,1 @@
+If you would like to hire someone to help you customize this plugin to fit your site better, please contact plugin developer <strong>Sagar Gurnani</strong> <a href="https://www.linkedin.com/in/sagargurnani36/" title="">https://www.linkedin.com/in/sagargurnani36/</a>

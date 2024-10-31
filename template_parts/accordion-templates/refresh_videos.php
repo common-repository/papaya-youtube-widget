@@ -1,0 +1,1 @@
+Yes. By clicking the <strong><i>Refresh</i></strong> button in the settings above and on the <a href="<?php echo esc_url( admin_url() . 'plugins.php' ); ?>" title="">plugins list page</a> under <strong>Papaya YouTube Plugin</strong>, you can manually make the plugin look for new videos in your channel outside of the scheduled updates.
